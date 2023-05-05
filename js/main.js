@@ -1,7 +1,6 @@
 (function ($) {
     "use strict";
 
-    // Spinner
     var spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
@@ -12,11 +11,9 @@
     spinner();
     
     
-    // Initiate the wowjs
     new WOW().init();
 
 
-    // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.sticky-top').addClass('shadow-sm').css('top', '0px');
@@ -26,7 +23,6 @@
     });
     
     
-    // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
@@ -40,29 +36,13 @@
     });
 
 
-    // Modal Video
-    var $videoSrc;
-    $('.btn-play').click(function () {
-        $videoSrc = $(this).data("src");
-    });
-    console.log($videoSrc);
-    $('#videoModal').on('shown.bs.modal', function (e) {
-        $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-    })
-    $('#videoModal').on('hide.bs.modal', function (e) {
-        $("#video").attr('src', $videoSrc);
-    })
-
-
-    // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
 
 
-    // Project carousel
-    $(".project-carousel").owlCarousel({
+    $(".gallery-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
         loop: true,
@@ -91,30 +71,12 @@
             }
         }
     });
-
-
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        center: true,
-        dots: false,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
-        ],
-        responsive: {
-            0:{
-                items:1
-            },
-            768:{
-                items:2
-            }
-        }
-    });
-
     
 })(jQuery);
+
+function scrollToSection(sectionId) {
+    var section = document.getElementById(sectionId);
+    var sectionTop = section.offsetTop - 50; // adjust the offset as needed
+    window.scrollTo(0, sectionTop);
+  }
 

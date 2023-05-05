@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <a href="index.html" class="navbar-brand ps-5 me-0">
-            <!-- <img src="./img/logo (1).png" alt="" height="60rem" width="60rem"> -->
+            <!-- <img src="./img/logo (1).png" alt="" class="navLogo"> -->
             <h1 class="text-white m-0">DPSCMUN</h1>
         </a>
         <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -36,8 +36,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#home" class="nav-item nav-link">Home</a>
-                <a href="#about" class="nav-item nav-link active">About</a>
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link ">About</a>
                 <a href="#committee" class="nav-item nav-link">Committees</a>
                 <a href="#gallery" class="nav-item nav-link">Gallery</a>
                 <a href="#secretariat" class="nav-item nav-link">Secretariat</a>
@@ -50,16 +50,18 @@
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/DPS_Azaad_Nagar_01.jpeg" alt="Image" height="650vh">
+                    <img class="w-100" src="img/School-carousel.jpeg" alt="Image" height="650vh">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10 text-start">
-                                    <p class="fs-5 fw-medium text text-uppercase animated slideInRight">We Welcome You All To
+                                    <p class="fs-5 fw-medium text text-uppercase animated slideInRight headingText">We Welcome You All To
                                         </p>
-                                    <h1 class="display-1 text-white mb-5 animated slideInRight">DPSCMUN - 2023
+                                    <h1 class="display-1 text-white mb-5 animated slideInRight headingName">DPSCMUN - 2023
                                         </h1>
-                                    <a href="./about.html" class="btn py-3 px-5 animated slideInLeft">Explore More</a>
+                                        <div class="text-center homeBtn">
+                                    <a href="#about" class="btn py-3 px-5 animated slideInLeft exploreBtn">Explore More</a>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -67,10 +69,11 @@
                 </div>
             </div>
         </div>
-    </div >
+    </div>
 
-    <div class="container-xxl py-5" id="about">
-        <div class="container">
+
+    <div class="container-xxl py-5">
+        <div class="container" id="about" style="padding-top: 5.5rem;">
             <div class="row g-5">
                 <div class="col-lg-6">
                     <div class="row gx-3 h-100">
@@ -122,153 +125,152 @@
             </div>
         </div>
     </div>
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5" id="committee">
-        <div class="container">
+    
+    <div class="container-xxl py-5">
+        <div class="container" id="committee" style="padding-top: 5.5rem;">
             <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">Lorem ipsum dolor sit amet.</p>
                 <h1 class="display-5 mb-4">Our Committees</h1>
             </div>
-            <div class="row gy-5 gx-4">
+            <div class="row gy-5 gx-4 d-flex justify-content-center align-items-center">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item">
+                    <div class="committee-item">
                         <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        <div class="service-img">
+                        <div class="committee-img">
                             <img class="img-fluid" src="img/about-1.jpg" alt="">
                         </div>
-                        <div class="service-detail">
-                            <div class="service-title">
+                        <div class="committee-detail">
+                            <div class="committee-title">
                                 <hr class="w-25">
                                 <h3 class="mb-0">All India Political Parties Meet <br> (AIPPM)</h3>
                                 <hr class="w-25">
                             </div>
-                            <div class="service-text">
+                            <div class="committee-text">
                                 <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias hic labore fugit. Repellat culpa neque, repudiandae voluptate molestias magni voluptatem.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Agenda</a>
+                        <a class="btn btn-light" href="#committee">Agenda</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
+                    <div class="committee-item">
                         <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        <div class="service-img">
+                        <div class="committee-img">
                             <img class="img-fluid" src="img/about-1.jpg" alt="">
                         </div>
-                        <div class="service-detail">
-                            <div class="service-title">
+                        <div class="committee-detail">
+                            <div class="committee-title">
                                 <hr class="w-25">
                                 <h3 class="mb-0">United Nations Human Rights Council<br> (UNHRC)</h3>
                                 <hr class="w-25">
                             </div>
-                            <div class="service-text">
+                            <div class="committee-text">
                                 <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias hic labore fugit. Repellat culpa neque, repudiandae voluptate molestias magni voluptatem.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Agenda</a>
+                        <a class="btn btn-light" href="#committee">Agenda</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item">
+                    <div class="committee-item">
                         <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        <div class="service-img">
+                        <div class="committee-img">
                             <img class="img-fluid" src="img/about-1.jpg" alt="">
                         </div>
-                        <div class="service-detail">
-                            <div class="service-title">
+                        <div class="committee-detail">
+                            <div class="committee-title">
                                 <hr class="w-25">
                                 <h3 class="mb-0">United Nations Security Council (UNSC)</h3>
                                 <hr class="w-25">
                             </div>
-                            <div class="service-text">
+                            <div class="committee-text">
                                 <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias hic labore fugit. Repellat culpa neque, repudiandae voluptate molestias magni voluptatem.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Agenda</a>
+                        <a class="btn btn-light" href="#committee">Agenda</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="committee-item">
                         <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        <div class="service-img">
+                        <div class="committee-img">
                             <img class="img-fluid" src="img/about-1.jpg" alt="">
                         </div>
-                        <div class="service-detail">
-                            <div class="service-title">
+                        <div class="committee-detail">
+                            <div class="committee-title">
                                 <hr class="w-25">
                                 <h3 class="mb-0">United Nations General Assembly <br> (UNGA)</h3>
                                 <hr class="w-25">
                             </div>
-                            <div class="service-text">
+                            <div class="committee-text">
                                 <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias hic labore fugit. Repellat culpa neque, repudiandae voluptate molestias magni voluptatem.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Agenda</a>
+                        <a class="btn btn-light" href="#committee">Agenda</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="committee-item">
                         <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        <div class="service-img">
+                        <div class="committee-img">
                             <img class="img-fluid" src="img/about-1.jpg" alt="">
                         </div>
-                        <div class="service-detail">
-                            <div class="service-title">
+                        <div class="committee-detail">
+                            <div class="committee-title">
                                 <hr class="w-25">
                                 <h3 class="mb-0">United Nations Women <br> (UNWOMEN)</h3>
                                 <hr class="w-25">
                             </div>
-                            <div class="service-text">
+                            <div class="committee-text">
                                 <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestias velit aut harum pariatur veritatis.</p>
                             </div>
                         </div>
-                        <a class="btn btn-light" href="">Agenda</a>
+                        <a class="btn btn-light" href="#committee">Agenda</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid bg-dark pt-5 my-5 px-0" id="gallery">
+    <div class="container-fluid bg-dark pt-5 my-5 px-0" id="gallery" style="padding-top: 10.5rem;">
         <div class="text-center mx-auto mt-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
             <p class="fw-medium text-uppercase text-primary mb-2">Welcome To</p>
             <h1 class="display-5 text-white mb-5">Our Gallery</h1>
         </div>
-        <div class="owl-carousel project-carousel wow fadeIn" data-wow-delay="0.1s">
-            <a class="project-item" href="">
+        <div class="owl-carousel gallery-carousel wow fadeIn" data-wow-delay="0.1s">
+            <a class="gallery-item" href="">
                 <img class="img-fluid" src="img/DSC_0005.JPG" alt="">
-                <div class="project-title">
+                <div class="gallery-title">
                     <h5 class="text-primary mb-0"></h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="gallery-item" href="">
                 <img class="img-fluid" src="img/DSC_0131.JPG" alt="">
-                <div class="project-title">
+                <div class="gallery-title">
                     <h5 class="text-primary mb-0"></h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="gallery-item" href="">
                 <img class="img-fluid" src="img/DSC_0183.JPG" alt="">
-                <div class="project-title">
+                <div class="gallery-title">
                     <h5 class="text-primary mb-0"></h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="gallery-item" href="">
                 <img class="img-fluid" src="img/DSC_0029.JPG" alt="">
-                <div class="project-title">
+                <div class="gallery-title">
                     <h5 class="text-primary mb-0"></h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="gallery-item" href="">
                 <img class="img-fluid" src="img/DSC_0131.JPG" alt="">
-                <div class="project-title">
+                <div class="gallery-title">
                     <h5 class="text-primary mb-0"></h5>
                 </div>
             </a>
-            <a class="project-item" href="">
+            <a class="gallery-item" href="">
                 <img class="img-fluid" src="img/DSC_0147.JPG" alt="">
-                <div class="project-title">
+                <div class="gallery-title">
                     <h5 class="text-primary mb-0"></h5>
                 </div>
             </a>
@@ -276,8 +278,8 @@
         </div>
     </div>
 
-    <div class="container-xxl py-5" id="secretariat">
-        <div class="container">
+    <div class="container-xxl py-5">
+        <div class="container" id = "secretariat" style="padding-top: 5.5rem;">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="fw-medium text-uppercase text-primary mb-2">The Members Of</p>
                 <h1 class="display-5 mb-5">Our Secretariat</h1>
@@ -285,7 +287,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/mem1.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -303,7 +305,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/mem1.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -321,7 +323,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/mem1.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -339,7 +341,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/mem1.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -357,7 +359,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/mem1.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -375,7 +377,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
-                        <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid" src="img/mem1.png" alt="">
                         <div class="d-flex">
                             <div class="flex-shrink-0 btn-square bg-primary" style="width: 90px; height: 90px;">
                                 <i class="fa fa-2x fa-share text-white"></i>
@@ -403,11 +405,11 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Mainawati Marg Azad Nagar, Kanpur, Uttar Pradesh 208002</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 9838597928</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7355480774</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>dpscmun@dpsdigits.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i><a href="mailto:dpscmun@dpsdigits.com" class="">dpscmun@dpsdigits.com</a></p>
                     <div class="d-flex pt-3">
                         <!-- <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i
                                 class="fab fa-twitter"></i></a> -->
-                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://wa.me/7355480774"><i
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href="https://wa.me/+917355480774"><i
                                 class="fab fa-whatsapp"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2" href="https://www.instagram.com/dpsmun/"><i
                                 class="fab fa-instagram"></i></a>
@@ -415,10 +417,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h5 class="text-white mb-4">Explore</h5>
-                    <a class="btn btn-link" href="./about.html">About</a>
-                    <a class="btn btn-link" href="./service.html">Services</a>
-                    <a class="btn btn-link" href="./project.html">Gallery</a>
-                    <a class="btn btn-link" href="./contact.html">Contact</a>
+                    <a class="btn btn-link" href="#about">About</a>
+                    <a class="btn btn-link" href="#committee">Committees</a>
+                    <a class="btn btn-link" href="#gallery">Gallery</a>
+                    <a class="btn btn-link" href="#contact">Contact</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-white mb-4">Email Us</h5>
@@ -437,7 +439,7 @@
     <div class="container-fluid bg-dark py-4">
         <div class="container text-center">
             <p class="mb-0">Designed By <a class="fw-semi-bold" href="https://www.instagram.com/parthawasthi_1307/">Parth Awasthi</a><br> Along With
-                <a href="">Aditya Chauhan</a> </p>
+                <a href="https://www.instagram.com/__.adityachauhan.__/">Aditya Chauhan</a> And <a href="https://www.instagram.com/israr.rizzvi/">Israr Rizvi</a> </p>
         </div>
     </div>
 
