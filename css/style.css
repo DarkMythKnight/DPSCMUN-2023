@@ -1,4 +1,8 @@
-/********** Template CSS **********/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
 :root {
     --primary: #2342aa;
     --secondary: #5F656F;
@@ -40,7 +44,6 @@ h6,
 }
 
 
-/*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -55,7 +58,6 @@ h6,
 }
 
 
-/*** Button ***/
 .btn {
     transition: .5s;
     font-weight: 500;
@@ -90,7 +92,7 @@ h6,
     font-weight: normal;
 }
 
-/*** Navbar ***/
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -149,7 +151,7 @@ h6,
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
         padding: 10px 0;
-    }
+    }@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
@@ -239,6 +241,9 @@ h6,
     text-align: center;
 }
 
+.about-text {
+    font-family: 'Raleway', sans-serif;
+}
 
 .facts {
     position: relative;
@@ -442,6 +447,7 @@ h6,
 }
 
 
+
 .team-item .team-social {
     position: absolute;
     width: 100%;
@@ -452,6 +458,10 @@ h6,
     align-items: center;
     background: var(--primary);
     transition: .5s;
+}
+
+.team-social p{
+    padding-top: .8rem;
 }
 
 .team-social h1 {
