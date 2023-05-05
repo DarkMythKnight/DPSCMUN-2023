@@ -460,6 +460,10 @@ h6,
     transition: .5s;
 }
 
+.delegates-number {
+    display: flex;
+}
+
 .team-social p{
     padding-top: .8rem;
 }

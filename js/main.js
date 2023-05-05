@@ -74,9 +74,4 @@
     
 })(jQuery);
 
-function scrollToSection(sectionId) {
-    var section = document.getElementById(sectionId);
-    var sectionTop = section.offsetTop - 50; // adjust the offset as needed
-    window.scrollTo(0, sectionTop);
-  }
 
