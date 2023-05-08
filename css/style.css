@@ -352,6 +352,10 @@ h6,
     top: 0;
 }
 
+.international-press {
+    align-items: center;
+}
+
 .committee-item .committee-text::before {
     position: absolute;
     content: "";
