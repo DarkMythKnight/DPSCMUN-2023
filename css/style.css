@@ -19,6 +19,17 @@
     z-index: 99;
 }
 
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #c7ccd2;
+  }
+
 h1,
 h2,
 .h1,
@@ -117,12 +128,12 @@ h6,
     transform: skewX(30deg);
     background-color: var(--primary);
 }
-/* 
+
 .navLogo {
-    height: 3.5rem;
-    width: 3.5rem;
-    margin-right: 1rem;
-} */
+    height: 90%;
+    width: 20%;
+    margin-right: 1.25rem;
+}
 
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
@@ -243,7 +254,24 @@ h6,
 
 .about-text {
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
+
+.about-1 {
+    /* border: 1px solid black; */
+    height: 60vh;
+    background: url(../img/Principal.jpg);
+    background-size: contain;
+}
+
+.about-2 {
+    /* border: 1px solid black; */
+    height: 60vh;
+    background: url(../img/Founder.jpg);
+    background-size: cover;
+}
+
+
 
 .facts {
     position: relative;
@@ -471,6 +499,12 @@ h6,
 .team-social h1 {
     color: whitesmoke;
     size: 1rem;
+}
+
+.sec-gen {
+    background: url('../img/Aditya-mem1.jpg');
+    height: 55vh;
+    background-size: cover;
 }
 
 .team-item:hover .team-social {
