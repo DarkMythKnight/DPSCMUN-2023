@@ -262,6 +262,8 @@ h6,
     height: 60vh;
     background: url(../img/Principal.jpg);
     background-size: contain;
+    margin-left: -40px;
+    margin-right: 30px;
 }
 
 .about-2 {
