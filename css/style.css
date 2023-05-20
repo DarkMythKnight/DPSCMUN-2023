@@ -167,6 +167,7 @@ h6,
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
+
 }
 
 @media (min-width: 992px) {
@@ -480,6 +481,23 @@ h6,
     transition: .5s;
 }
 
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .lazy {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  .lazy.loaded {
+    opacity: 1;
+  }
 
 
 .team-item .team-social {
