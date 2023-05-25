@@ -228,6 +228,38 @@ h6,
         height: 100%;
         object-fit: cover;
     }
+
+    .navbar .navbar-brand::after {
+        position: absolute;
+        content: "";
+        width: 0px;
+        height: 100%;
+        top: 0;
+        right: -25px;
+        /* transform: skewX(30deg); */
+        background-color: var(--primary);
+    }
+
+    .navbar .navbar-brand {
+        padding-right: 25px;
+    }
+
+    .about-1 {
+        /* border: 2px solid black; */
+        max-height: 50vh;
+        min-width: 80vw;
+        background: url(../img/Principal.jpg);
+        background-size: cover;
+    }
+    
+    .about-2 {
+        /* border: 1px solid black; */
+        max-height: 50vh;
+        min-width: 80vw;
+        background: url(../img/Founder.jpg);
+        background-size: cover;
+        margin: 10px auto;
+    }
 }
 
 .page-header {
@@ -262,9 +294,9 @@ h6,
     /* border: 1px solid black; */
     height: 60vh;
     background: url(../img/Principal.jpg);
-    background-size: contain;
-    margin-left: -40px;
-    margin-right: 30px;
+    background-size: cover;
+    /* margin-left: -40px; */
+    margin-right: 0px;
 }
 
 .about-2 {
